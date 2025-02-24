@@ -1,0 +1,5 @@
+Enter your first name:Jasmin
+Enter your middle name:Flor
+Enter your last name:Leonrodriguez
+My name is:JasminFlorLeonrodriguez
+My initials are: FL
