@@ -17,10 +17,15 @@ public class PC13
         //variables
         double meal, total, taxAmount, tipAmount;
         final double TAX = 0.0675;
-        double constant TIP = 20%
+        final double TIP = .20;
             // Get input 
         Scanner keyboard = new Scanner (System.in);
         System.out.print("Enter meal amount: $");// print out question 
+        meal amount = keyboard.nextLine();
+        
+        
+        System.out.print("Enter meal amount: $");// print out question 
+        taxAmount = keyboard.nextLine();
 
         ////Get input section
 
