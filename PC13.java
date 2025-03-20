@@ -17,27 +17,23 @@ public class PC13
         //variables
         double meal, total, taxAmount, tipAmount;
         final double TAX = 0.0675;
-        final double TIP = .20;
-            // Get input 
+        final double TIP = 0.20;
+        // Get input 
         Scanner keyboard = new Scanner (System.in);
         System.out.print("Enter meal amount: $");// print out question 
-        meal amount = keyboard.nextLine();
+        meal = keyboard.nextDouble();
+
         
-        
-        System.out.print("Enter meal amount: $");// print out question 
-        taxAmount = keyboard.nextLine();
+        taxAmount = meal*TAX;
+        System.out.printf("\nThe tax is: $%,.2f", taxAmount);
 
-        ////Get input section
+        tipAmount = (meal+taxAmount)*TIP;
+        System.out.printf("\nThe tip amount is: $%,.2f", tipAmount);
 
-        System.out.print//assign meal var with a double from the Scanner object
-        System.out.print//assign taxAmount var with a double from meal * ???
-        System.out.print//assign tipAmount var with a double from meal * ???
-        System.out.print//assign total var with the sum of ???
-
-        System.out.printf("\nThe tax is: $%,.2f", taxAmount);  
-        //// $%,.2f is a place holder for $ then puts a , 
-        //// after 3 places (as needed) and rounds to 2 decimal places
-        System.out.printf("\nThe tip amount is: $%,.2f", tipAmount);  
+        total = meal+taxAmount+tipAmount;
         System.out.printf("\nThe meal cost with tax and tip is: $%,.2f", total);
+
+
+        
     }
 }

@@ -20,9 +20,13 @@ public class ProChall15
         String temp; // var to receive Input Dialog box contents
 
         ////get input for number of shares and cost per share using Dialog boxes
-        temp = JOptionPane.showInputDialog ("Enter number of shares purchased");
+        temp = JOptionPane.showInputDialog ("Enter price per share", numShare);
         numShares = Integer.parseInt (temp);
-        pricePerShare double = 
+        
+        temp = JOptionPane.showInputDialog ("Enter number of shares purchased", pricePerShare);
+        pricePerShare = Double.parseDouble(); 
+        
+        temp = JOptionPane.showInputDialog ("Enter number of shares purchased", pricePerShare);
 
         ////computations
         totalCostShares = with product of what and what?
