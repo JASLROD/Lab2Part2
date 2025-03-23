@@ -1,14 +1,16 @@
 import java.util.Scanner;
 /**
  * The Scanner class will read input from the keyboard we can use 
- * 1)i will set interger variables to find different values
- * 2)it will ask for the meal price 
- * 3)it will calculate the tax, tip and total 
+ * 1)it will set interger variables to find different values.
+ * 2)it will ask for the meal price.
+ * 3)it will calculate the tax, tip and total. 
+ * 4)it will display meal price, tax, tip and total cost of meal
+ * using System.out.printf.
  *
  *
  * @author Jasmin Leonrodriguez, jleonrodriquez@student.sdccd.edu
  * @version v1.1
- * @since 2/25/2025
+ * @since 3/20/2025
  */
 
 public class PC13
